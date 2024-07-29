@@ -29,14 +29,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         resultText = findViewById(R.id.result_text);
-
-        // Configurar listeners para los botones numéricos
         setNumberButtonListeners();
-
-        // Configurar listeners para los botones de operación
         setOperationButtonListeners();
-
-        // Configurar listeners para los botones de función especial
         setSpecialFunctionListeners();
     }
 
